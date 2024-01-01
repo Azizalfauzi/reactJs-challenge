@@ -29,5 +29,21 @@ function Intro() {
 }
 
 function SkillList() {
-  return <h1>Kist of Icon</h1>;
+  return (
+    <div className="skill-list">
+      <Skill skill="ReactJs" emoji="👌" color="red" />
+      <Skill skill="Spring Boot" emoji="🫵" color="orange" />
+      <Skill skill="Laravel" emoji="👉" color="yellow" />
+      <Skill skill="Angular" emoji="👈" color="salmon" />
+    </div>
+  );
+}
+
+function Skill(props) {
+  return (
+    <div className="skill" style={{ backgroundColor: props.color }}>
+      <span>{props.skill}</span>
+      <span>{props.emoji}</span>
+    </div>
+  );
 }
