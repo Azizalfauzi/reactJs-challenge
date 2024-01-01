@@ -1,3 +1,5 @@
+import logo from "./logo192.png";
+
 export default function App() {
   return (
     <div className="card">
@@ -11,7 +13,7 @@ export default function App() {
 }
 
 function Avatar() {
-  return <image className="avatar" src="logo192.png" alt="aziz" />;
+  return <img className="avatar" src={logo} alt="aziz" />;
 }
 
 function Intro() {
