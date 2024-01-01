@@ -11,7 +11,7 @@ export default function App() {
 }
 
 function Avatar() {
-  return <h1>Avatar</h1>;
+  return <image className="avatar" src="logo192.png" alt="aziz" />;
 }
 
 function Intro() {
