@@ -17,7 +17,15 @@ function Avatar() {
 }
 
 function Intro() {
-  return <h1>Title</h1>;
+  return (
+    <div>
+      <h1>Aziz Alfauzi</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis
+        mattis massa, sit amet commodo erat. Quisque sit amet tincidunt arcu.
+      </p>
+    </div>
+  );
 }
 
 function SkillList() {
